@@ -1,0 +1,33 @@
+.card-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  grid-gap: 20px;
+  flex-direction: column;
+  background-color: #95dada;
+  border: 1px solid grey;
+  border-radius: 5px;
+  padding: 25px;
+  cursor: pointer;
+  -moz-osx-font-smoothing: grayscale;
+  backface-visibility: hidden;
+  transform: translateZ(0);
+  transition: transform 0.25 ease-out;
+}
+
+.card-container:hover {
+  transform: scale(1.05);
+}
+
+.card-name {
+  text-align: left;
+  font-size: medium;
+  font-weight: 400;
+  color: black;
+}
+.card-data {
+  text-align: left;
+  font-size: medium;
+  font-weight: 400;
+  color: black;
+  line-height: 0em;
+}
